@@ -1,0 +1,132 @@
+date,category,amount,description
+2024-03-01,Food,15.99,Starbucks coffee and sandwich breakfast
+2024-03-01,Food,12.50,Local cafe coffee and bagel breakfast
+2024-03-01,Food,8.99,Dunkin donuts coffee and pastry
+2024-03-01,Food,45.75,Walmart grocery shopping food items
+2024-03-01,Food,65.25,Whole Foods organic grocery shopping
+2024-03-01,Food,85.50,Costco bulk food groceries purchase
+2024-03-01,Food,32.50,Dominos pizza delivery dinner
+2024-03-01,Food,28.75,Pizza Hut large pizza and sides
+2024-03-01,Food,25.99,Papa Johns pizza family meal
+2024-03-01,Food,8.99,Subway sandwich lunch meal
+
+2024-03-02,Transport,25.50,Uber ride to work commute
+2024-03-02,Transport,22.00,Lyft rideshare to office
+2024-03-02,Transport,2.50,Public bus fare transport
+2024-03-02,Transport,2.75,Subway metro ticket transport
+2024-03-02,Transport,35.00,Airport taxi transportation service
+2024-03-02,Transport,45.00,Airport shuttle service transport
+2024-03-02,Transport,150.00,Car maintenance service repair
+2024-03-02,Transport,75.00,Vehicle oil change service
+2024-03-02,Transport,45.00,Gas station fuel refill
+2024-03-02,Transport,42.50,Gasoline fuel purchase transport
+
+2024-03-03,Utilities,85.00,Monthly electricity bill payment
+2024-03-03,Utilities,45.00,Water utility monthly bill
+2024-03-03,Utilities,75.00,Internet service provider bill
+2024-03-03,Utilities,95.00,Natural gas utility payment
+2024-03-03,Utilities,110.00,Electric service monthly charge
+2024-03-03,Utilities,75.00,Internet bill payment monthly
+2024-03-03,Utilities,89.99,Cable TV service subscription
+2024-03-03,Utilities,65.00,Phone bill monthly payment
+2024-03-03,Utilities,55.00,Mobile phone service charge
+2024-03-03,Utilities,75.00,Internet and phone bundle bill
+
+2024-03-04,Entertainment,12.99,Netflix streaming subscription monthly
+2024-03-04,Entertainment,14.99,Hulu premium subscription service
+2024-03-04,Entertainment,9.99,Spotify music streaming premium
+2024-03-04,Entertainment,25.00,Movie tickets cinema viewing
+2024-03-04,Entertainment,30.00,IMAX movie theater tickets
+2024-03-04,Entertainment,60.00,Concert tickets live music
+2024-03-04,Entertainment,85.00,Theater show performance tickets
+2024-03-04,Entertainment,45.00,Comedy club show tickets
+2024-03-04,Entertainment,49.99,Video game digital purchase
+2024-03-04,Entertainment,59.99,PlayStation gaming purchase
+
+2024-03-05,Shopping,89.99,Nike athletic shoes purchase
+2024-03-05,Shopping,65.00,H&M clothing store purchase
+2024-03-05,Shopping,120.00,Macys winter coat apparel
+2024-03-05,Shopping,129.99,Winter jacket clothing purchase
+2024-03-05,Shopping,89.99,Rain coat outdoor wear
+2024-03-05,Shopping,45.00,Amazon books online purchase
+2024-03-05,Shopping,250.00,Apple AirPods electronics
+2024-03-05,Shopping,199.99,Wireless headphones purchase
+2024-03-05,Shopping,75.00,H&M clothing items purchase
+2024-03-05,Shopping,95.00,Zara clothing store purchase
+
+2024-03-06,Health,35.00,Pharmacy cold medicine CVS
+2024-03-06,Health,25.00,CVS vitamin supplements
+2024-03-06,Health,15.50,First aid supplies pharmacy
+2024-03-06,Health,150.00,Dental checkup appointment
+2024-03-06,Health,200.00,Annual physical examination
+2024-03-06,Health,75.00,Eye exam vision check
+2024-03-06,Health,45.00,Gym membership monthly fee
+2024-03-06,Health,55.00,Yoga classes fitness
+2024-03-06,Health,35.00,Fitness app subscription
+2024-03-06,Health,28.99,Health supplements purchase
+
+2024-03-07,Food,42.00,Thai restaurant dinner meal
+2024-03-07,Food,38.50,Sushi restaurant dinner
+2024-03-07,Food,45.00,Korean BBQ restaurant dinner
+2024-03-07,Food,35.75,Whole Foods grocery items
+2024-03-07,Food,42.50,Trader Joes grocery shopping
+2024-03-07,Food,16.99,Burger King fast food meal
+2024-03-07,Food,15.75,Wendys combo meal order
+2024-03-07,Food,12.99,McDonalds value meal
+2024-03-07,Food,18.50,Chipotle burrito bowl lunch
+2024-03-07,Food,16.99,Qdoba Mexican grill meal
+
+2024-03-08,Transport,28.00,Lyft ride transportation
+2024-03-08,Transport,25.50,Uber trip ride service
+2024-03-08,Transport,30.00,Taxi cab service ride
+2024-03-08,Transport,4.50,Metro card recharge transport
+2024-03-08,Transport,5.00,Bus pass public transit
+2024-03-08,Transport,3.75,Subway fare transport
+2024-03-08,Transport,250.00,Car brake service repair
+2024-03-08,Transport,40.00,Gas station fuel fillup
+2024-03-08,Transport,42.50,Gasoline purchase vehicle
+2024-03-08,Transport,2.50,Bus ticket public transport
+
+2024-03-09,Utilities,120.00,Gas utility monthly bill
+2024-03-09,Utilities,95.00,Electric utility payment
+2024-03-09,Utilities,75.00,Water service utility bill
+2024-03-09,Utilities,65.00,Phone service monthly bill
+2024-03-09,Utilities,55.00,Mobile service provider bill
+2024-03-09,Utilities,75.00,Internet bundle monthly
+2024-03-09,Utilities,85.00,Electricity service payment
+2024-03-09,Utilities,45.00,Water utility service charge
+2024-03-09,Utilities,75.00,Internet provider payment
+2024-03-09,Utilities,89.99,Cable television service
+
+2024-03-10,Entertainment,29.99,Disney plus streaming service
+2024-03-10,Entertainment,19.99,HBO Max subscription monthly
+2024-03-10,Entertainment,14.99,Paramount plus streaming
+2024-03-10,Entertainment,15.99,Spotify premium music
+2024-03-10,Entertainment,9.99,Apple Music subscription
+2024-03-10,Entertainment,12.99,YouTube Premium service
+2024-03-10,Entertainment,39.99,Steam game digital purchase
+2024-03-10,Entertainment,25.00,Cinema movie tickets
+2024-03-10,Entertainment,30.00,Theater movie screening
+2024-03-10,Entertainment,15.00,Matinee movie show
+
+2024-03-11,Shopping,149.99,Leather jacket apparel
+2024-03-11,Shopping,85.00,Uniqlo basic clothing
+2024-03-11,Shopping,95.00,Zara fashion items
+2024-03-11,Shopping,35.00,Kindle ebooks purchase
+2024-03-11,Shopping,25.00,Magazine subscription
+2024-03-11,Shopping,149.99,Bluetooth earbuds
+2024-03-11,Shopping,89.99,Athletic shoes Nike
+2024-03-11,Shopping,65.00,Casual wear clothing
+2024-03-11,Shopping,120.00,Winter clothing items
+2024-03-11,Shopping,75.00,Online shopping Amazon
+
+2024-03-12,Health,75.00,Eye checkup appointment
+2024-03-12,Health,150.00,Dental cleaning service
+2024-03-12,Health,200.00,Medical consultation visit
+2024-03-12,Health,35.00,Pharmacy prescription meds
+2024-03-12,Health,25.00,Vitamin supplements store
+2024-03-12,Health,45.00,Gym membership fitness
+2024-03-12,Health,55.00,Yoga studio classes
+2024-03-12,Health,35.00,Health app subscription
+2024-03-12,Health,28.99,Protein supplements
+2024-03-12,Health,15.50,Pharmacy first aid items 
