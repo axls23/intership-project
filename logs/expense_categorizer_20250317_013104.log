@@ -1,0 +1,777 @@
+2025-03-17 01:31:04,781 - ExpenseCategorizerLogger - INFO - Starting expense categorizer
+2025-03-17 01:31:04,789 - ExpenseCategorizerLogger - INFO - Model loaded from expense_model.pkl
+2025-03-17 01:31:04,792 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Starbucks coffee and sandwich
+2025-03-17 01:31:04,792 - ExpenseCategorizerLogger - DEBUG - After lowercase: starbucks coffee and sandwich
+2025-03-17 01:31:04,793 - ExpenseCategorizerLogger - DEBUG - After special char removal: starbucks coffee and sandwich
+2025-03-17 01:31:04,835 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['starbucks', 'coffee', 'and', 'sandwich']
+2025-03-17 01:31:06,785 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['starbucks', 'coffee', 'sandwich']
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Coffee and bagel at local cafe
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After lowercase: coffee and bagel at local cafe
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After special char removal: coffee and bagel at local cafe
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['coffee', 'and', 'bagel', 'at', 'local', 'cafe']
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['coffee', 'bagel', 'local', 'cafe']
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Morning coffee at Dunkin
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After lowercase: morning coffee at dunkin
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After special char removal: morning coffee at dunkin
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['morning', 'coffee', 'at', 'dunkin']
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['morning', 'coffee', 'dunkin']
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Uber ride to work
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After lowercase: uber ride to work
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After special char removal: uber ride to work
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['uber', 'ride', 'to', 'work']
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['uber', 'ride', 'work']
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Lyft to office
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After lowercase: lyft to office
+2025-03-17 01:31:06,786 - ExpenseCategorizerLogger - DEBUG - After special char removal: lyft to office
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['lyft', 'to', 'office']
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['lyft', 'office']
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Bus fare
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After lowercase: bus fare
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After special char removal: bus fare
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['bus', 'fare']
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['bus', 'fare']
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Grocery shopping at Walmart
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After lowercase: grocery shopping at walmart
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After special char removal: grocery shopping at walmart
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['grocery', 'shopping', 'at', 'walmart']
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['grocery', 'shopping', 'walmart']
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Whole Foods groceries
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After lowercase: whole foods groceries
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After special char removal: whole foods groceries
+2025-03-17 01:31:06,787 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['whole', 'foods', 'groceries']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['whole', 'food', 'grocery']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Costco bulk groceries
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After lowercase: costco bulk groceries
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After special char removal: costco bulk groceries
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['costco', 'bulk', 'groceries']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['costco', 'bulk', 'grocery']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Netflix monthly subscription
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After lowercase: netflix monthly subscription
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After special char removal: netflix monthly subscription
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['netflix', 'monthly', 'subscription']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['netflix', 'monthly', 'subscription']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Hulu subscription
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After lowercase: hulu subscription
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After special char removal: hulu subscription
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['hulu', 'subscription']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['hulu', 'subscription']
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Spotify Premium
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After lowercase: spotify premium
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After special char removal: spotify premium
+2025-03-17 01:31:06,788 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['spotify', 'premium']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['spotify', 'premium']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Electricity bill payment
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After lowercase: electricity bill payment
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After special char removal: electricity bill payment
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['electricity', 'bill', 'payment']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['electricity', 'bill', 'payment']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Water bill
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After lowercase: water bill
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After special char removal: water bill
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['water', 'bill']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['water', 'bill']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Internet service
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After lowercase: internet service
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After special char removal: internet service
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['internet', 'service']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['internet', 'service']
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Pharmacy - cold medicine
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After lowercase: pharmacy - cold medicine
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After special char removal: pharmacy   cold medicine
+2025-03-17 01:31:06,789 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['pharmacy', 'cold', 'medicine']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['pharmacy', 'cold', 'medicine']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Vitamins at CVS
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After lowercase: vitamins at cvs
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After special char removal: vitamins at cvs
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['vitamins', 'at', 'cvs']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['vitamin', 'cv']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: First aid supplies
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After lowercase: first aid supplies
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After special char removal: first aid supplies
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['first', 'aid', 'supplies']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['first', 'aid', 'supply']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: New shoes from Nike
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After lowercase: new shoes from nike
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After special char removal: new shoes from nike
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['new', 'shoes', 'from', 'nike']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['new', 'shoe', 'nike']
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Clothes at H&M
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After lowercase: clothes at h&m
+2025-03-17 01:31:06,790 - ExpenseCategorizerLogger - DEBUG - After special char removal: clothes at h m
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['clothes', 'at', 'h', 'm']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['clothes']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Winter coat at Macy's
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After lowercase: winter coat at macy's
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After special char removal: winter coat at macy s
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['winter', 'coat', 'at', 'macy', 's']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['winter', 'coat', 'macy']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Pizza delivery from Dominos
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After lowercase: pizza delivery from dominos
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After special char removal: pizza delivery from dominos
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['pizza', 'delivery', 'from', 'dominos']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['pizza', 'delivery', 'domino']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Pizza Hut order
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After lowercase: pizza hut order
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After special char removal: pizza hut order
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['pizza', 'hut', 'order']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['pizza', 'hut', 'order']
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Papa John's pizza
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After lowercase: papa john's pizza
+2025-03-17 01:31:06,791 - ExpenseCategorizerLogger - DEBUG - After special char removal: papa john s pizza
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['papa', 'john', 's', 'pizza']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['papa', 'john', 'pizza']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Bus ticket
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After lowercase: bus ticket
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After special char removal: bus ticket
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['bus', 'ticket']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['bus', 'ticket']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Metro fare
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After lowercase: metro fare
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After special char removal: metro fare
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['metro', 'fare']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['metro', 'fare']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Subway ticket
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After lowercase: subway ticket
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After special char removal: subway ticket
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['subway', 'ticket']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['subway', 'ticket']
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Subway sandwich
+2025-03-17 01:31:06,792 - ExpenseCategorizerLogger - DEBUG - After lowercase: subway sandwich
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After special char removal: subway sandwich
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['subway', 'sandwich']
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['subway', 'sandwich']
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Jimmy John's sub
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After lowercase: jimmy john's sub
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After special char removal: jimmy john s sub
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['jimmy', 'john', 's', 'sub']
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['jimmy', 'john', 'sub']
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Quiznos sandwich
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After lowercase: quiznos sandwich
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After special char removal: quiznos sandwich
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['quiznos', 'sandwich']
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['quiznos', 'sandwich']
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Movie tickets - Avatar
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After lowercase: movie tickets - avatar
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After special char removal: movie tickets   avatar
+2025-03-17 01:31:06,793 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['movie', 'tickets', 'avatar']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['movie', 'ticket', 'avatar']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: IMAX movie tickets
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After lowercase: imax movie tickets
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After special char removal: imax movie tickets
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['imax', 'movie', 'tickets']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['imax', 'movie', 'ticket']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Cinema matinee show
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After lowercase: cinema matinee show
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After special char removal: cinema matinee show
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['cinema', 'matinee', 'show']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['cinema', 'matinee', 'show']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Winter jacket
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After lowercase: winter jacket
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After special char removal: winter jacket
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['winter', 'jacket']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['winter', 'jacket']
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Rain coat
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After lowercase: rain coat
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After special char removal: rain coat
+2025-03-17 01:31:06,794 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['rain', 'coat']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['rain', 'coat']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Leather jacket
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After lowercase: leather jacket
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After special char removal: leather jacket
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['leather', 'jacket']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['leather', 'jacket']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Water bill
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After lowercase: water bill
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After special char removal: water bill
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['water', 'bill']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['water', 'bill']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Gas bill
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After lowercase: gas bill
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After special char removal: gas bill
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['gas', 'bill']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['gas', 'bill']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Electric service
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After lowercase: electric service
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After special char removal: electric service
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['electric', 'service']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['electric', 'service']
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Restaurant dinner with friends
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After lowercase: restaurant dinner with friends
+2025-03-17 01:31:06,795 - ExpenseCategorizerLogger - DEBUG - After special char removal: restaurant dinner with friends
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['restaurant', 'dinner', 'with', 'friends']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['restaurant', 'dinner', 'friend']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Steakhouse dinner
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After lowercase: steakhouse dinner
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After special char removal: steakhouse dinner
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['steakhouse', 'dinner']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['steakhouse', 'dinner']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Italian restaurant
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After lowercase: italian restaurant
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After special char removal: italian restaurant
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['italian', 'restaurant']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['italian', 'restaurant']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Dental checkup
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After lowercase: dental checkup
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After special char removal: dental checkup
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['dental', 'checkup']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['dental', 'checkup']
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Annual physical
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After lowercase: annual physical
+2025-03-17 01:31:06,796 - ExpenseCategorizerLogger - DEBUG - After special char removal: annual physical
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['annual', 'physical']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['annual', 'physical']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Eye exam
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After lowercase: eye exam
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After special char removal: eye exam
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['eye', 'exam']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['eye', 'exam']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Taxi to airport
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After lowercase: taxi to airport
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After special char removal: taxi to airport
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['taxi', 'to', 'airport']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['taxi', 'airport']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Airport shuttle
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After lowercase: airport shuttle
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After special char removal: airport shuttle
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['airport', 'shuttle']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['airport', 'shuttle']
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Premium cab service
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After lowercase: premium cab service
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After special char removal: premium cab service
+2025-03-17 01:31:06,797 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['premium', 'cab', 'service']
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['premium', 'cab', 'service']
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Airport coffee and snacks
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After lowercase: airport coffee and snacks
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After special char removal: airport coffee and snacks
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['airport', 'coffee', 'and', 'snacks']
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['airport', 'coffee', 'snack']
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Airport cafe lunch
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After lowercase: airport cafe lunch
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After special char removal: airport cafe lunch
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['airport', 'cafe', 'lunch']
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['airport', 'cafe', 'lunch']
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Airport vending machine
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After lowercase: airport vending machine
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After special char removal: airport vending machine
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['airport', 'vending', 'machine']
+2025-03-17 01:31:06,798 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['airport', 'vend', 'machine']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Books from Amazon
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After lowercase: books from amazon
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After special char removal: books from amazon
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['books', 'from', 'amazon']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['book', 'amazon']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Kindle ebooks
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After lowercase: kindle ebooks
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After special char removal: kindle ebooks
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['kindle', 'ebooks']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['kindle', 'ebooks']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Magazine subscription
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After lowercase: magazine subscription
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After special char removal: magazine subscription
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['magazine', 'subscription']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['magazine', 'subscription']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Concert tickets
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After lowercase: concert tickets
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After special char removal: concert tickets
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['concert', 'tickets']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['concert', 'ticket']
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Theater show
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After lowercase: theater show
+2025-03-17 01:31:06,799 - ExpenseCategorizerLogger - DEBUG - After special char removal: theater show
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['theater', 'show']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['theater', 'show']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Comedy club
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After lowercase: comedy club
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After special char removal: comedy club
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['comedy', 'club']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['comedy', 'club']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Chinese takeout
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After lowercase: chinese takeout
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After special char removal: chinese takeout
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['chinese', 'takeout']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['chinese', 'takeout']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Thai food delivery
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After lowercase: thai food delivery
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After special char removal: thai food delivery
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['thai', 'food', 'delivery']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['thai', 'food', 'delivery']
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Vietnamese pho
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After lowercase: vietnamese pho
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After special char removal: vietnamese pho
+2025-03-17 01:31:06,800 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['vietnamese', 'pho']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['vietnamese', 'pho']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Internet bill
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After lowercase: internet bill
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After special char removal: internet bill
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['internet', 'bill']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['internet', 'bill']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Cable TV service
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After lowercase: cable tv service
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After special char removal: cable tv service
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['cable', 'tv', 'service']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['cable', 'service']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Phone bill
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After lowercase: phone bill
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After special char removal: phone bill
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['phone', 'bill']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['phone', 'bill']
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Gas station fill up
+2025-03-17 01:31:06,801 - ExpenseCategorizerLogger - DEBUG - After lowercase: gas station fill up
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After special char removal: gas station fill up
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['gas', 'station', 'fill', 'up']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['gas', 'station', 'fill']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Fuel purchase
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After lowercase: fuel purchase
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After special char removal: fuel purchase
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['fuel', 'purchase']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['fuel', 'purchase']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Gasoline
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After lowercase: gasoline
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After special char removal: gasoline
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['gasoline']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['gasoline']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Costco groceries
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After lowercase: costco groceries
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After special char removal: costco groceries
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['costco', 'groceries']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['costco', 'grocery']
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Sam's Club groceries
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After lowercase: sam's club groceries
+2025-03-17 01:31:06,802 - ExpenseCategorizerLogger - DEBUG - After special char removal: sam s club groceries
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['sam', 's', 'club', 'groceries']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['sam', 'club', 'grocery']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: BJ's wholesale shopping
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After lowercase: bj's wholesale shopping
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After special char removal: bj s wholesale shopping
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['bj', 's', 'wholesale', 'shopping']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['wholesale', 'shopping']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Vitamin supplements
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After lowercase: vitamin supplements
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After special char removal: vitamin supplements
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['vitamin', 'supplements']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['vitamin', 'supplement']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Protein powder
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After lowercase: protein powder
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After special char removal: protein powder
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['protein', 'powder']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['protein', 'powder']
+2025-03-17 01:31:06,803 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Health supplements
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After lowercase: health supplements
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After special char removal: health supplements
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['health', 'supplements']
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['health', 'supplement']
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Chipotle burrito bowl
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After lowercase: chipotle burrito bowl
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After special char removal: chipotle burrito bowl
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['chipotle', 'burrito', 'bowl']
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['chipotle', 'burrito', 'bowl']
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Qdoba Mexican bowl
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After lowercase: qdoba mexican bowl
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After special char removal: qdoba mexican bowl
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['qdoba', 'mexican', 'bowl']
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['qdoba', 'mexican', 'bowl']
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Moe's Southwest grill
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After lowercase: moe's southwest grill
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After special char removal: moe s southwest grill
+2025-03-17 01:31:06,804 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['moe', 's', 'southwest', 'grill']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['moe', 'southwest', 'grill']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Spotify premium
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After lowercase: spotify premium
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After special char removal: spotify premium
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['spotify', 'premium']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['spotify', 'premium']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Apple Music
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After lowercase: apple music
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After special char removal: apple music
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['apple', 'music']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['apple', 'music']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: YouTube Premium
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After lowercase: youtube premium
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After special char removal: youtube premium
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['youtube', 'premium']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['youtube', 'premium']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: H&M clothing
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After lowercase: h&m clothing
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After special char removal: h m clothing
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['h', 'm', 'clothing']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['clothing']
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Zara outfits
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After lowercase: zara outfits
+2025-03-17 01:31:06,805 - ExpenseCategorizerLogger - DEBUG - After special char removal: zara outfits
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['zara', 'outfits']
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['zara', 'outfit']
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Uniqlo basics
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After lowercase: uniqlo basics
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After special char removal: uniqlo basics
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['uniqlo', 'basics']
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['uniqlo', 'basic']
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Panera Bread lunch
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After lowercase: panera bread lunch
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After special char removal: panera bread lunch
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['panera', 'bread', 'lunch']
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['panera', 'bread', 'lunch']
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Corner Bakery cafe
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After lowercase: corner bakery cafe
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After special char removal: corner bakery cafe
+2025-03-17 01:31:06,806 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['corner', 'bakery', 'cafe']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['corner', 'bakery', 'cafe']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Au Bon Pain
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After lowercase: au bon pain
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After special char removal: au bon pain
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['au', 'bon', 'pain']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['bon', 'pain']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Lyft ride
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After lowercase: lyft ride
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After special char removal: lyft ride
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['lyft', 'ride']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['lyft', 'ride']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Uber trip
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After lowercase: uber trip
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After special char removal: uber trip
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['uber', 'trip']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['uber', 'trip']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Taxi service
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After lowercase: taxi service
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After special char removal: taxi service
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['taxi', 'service']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['taxi', 'service']
+2025-03-17 01:31:06,807 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Thai restaurant dinner
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After lowercase: thai restaurant dinner
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After special char removal: thai restaurant dinner
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['thai', 'restaurant', 'dinner']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['thai', 'restaurant', 'dinner']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Sushi dinner
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After lowercase: sushi dinner
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After special char removal: sushi dinner
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['sushi', 'dinner']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['sushi', 'dinner']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Korean BBQ
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After lowercase: korean bbq
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After special char removal: korean bbq
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['korean', 'bbq']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['korean', 'bbq']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Gas bill
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After lowercase: gas bill
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After special char removal: gas bill
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['gas', 'bill']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['gas', 'bill']
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Electric bill
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After lowercase: electric bill
+2025-03-17 01:31:06,808 - ExpenseCategorizerLogger - DEBUG - After special char removal: electric bill
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['electric', 'bill']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['electric', 'bill']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Water service
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After lowercase: water service
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After special char removal: water service
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['water', 'service']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['water', 'service']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Video game purchase
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After lowercase: video game purchase
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After special char removal: video game purchase
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['video', 'game', 'purchase']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['video', 'game', 'purchase']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: PlayStation game
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After lowercase: playstation game
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After special char removal: playstation game
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['playstation', 'game']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['playstation', 'game']
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Steam game purchase
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After lowercase: steam game purchase
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After special char removal: steam game purchase
+2025-03-17 01:31:06,809 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['steam', 'game', 'purchase']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['steam', 'game', 'purchase']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Car maintenance
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After lowercase: car maintenance
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After special char removal: car maintenance
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['car', 'maintenance']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['car', 'maintenance']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Oil change
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After lowercase: oil change
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After special char removal: oil change
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['oil', 'change']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['oil', 'change']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Brake service
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After lowercase: brake service
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After special char removal: brake service
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['brake', 'service']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['brake', 'service']
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Whole Foods groceries
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After lowercase: whole foods groceries
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After special char removal: whole foods groceries
+2025-03-17 01:31:06,810 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['whole', 'foods', 'groceries']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['whole', 'food', 'grocery']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Trader Joe's shopping
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After lowercase: trader joe's shopping
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After special char removal: trader joe s shopping
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['trader', 'joe', 's', 'shopping']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['trader', 'joe', 'shopping']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Organic market
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After lowercase: organic market
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After special char removal: organic market
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['organic', 'market']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['organic', 'market']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Gym membership
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After lowercase: gym membership
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After special char removal: gym membership
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['gym', 'membership']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['gym', 'membership']
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Yoga classes
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After lowercase: yoga classes
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After special char removal: yoga classes
+2025-03-17 01:31:06,811 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['yoga', 'classes']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['yoga', 'class']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Fitness app subscription
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After lowercase: fitness app subscription
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After special char removal: fitness app subscription
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['fitness', 'app', 'subscription']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['fitness', 'app', 'subscription']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Apple AirPods
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After lowercase: apple airpods
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After special char removal: apple airpods
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['apple', 'airpods']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['apple', 'airpods']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Wireless headphones
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After lowercase: wireless headphones
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After special char removal: wireless headphones
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['wireless', 'headphones']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['wireless', 'headphone']
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Bluetooth earbuds
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After lowercase: bluetooth earbuds
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After special char removal: bluetooth earbuds
+2025-03-17 01:31:06,812 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['bluetooth', 'earbuds']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['bluetooth', 'earbuds']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Burger King meal
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After lowercase: burger king meal
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After special char removal: burger king meal
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['burger', 'king', 'meal']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['burger', 'king', 'meal']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Wendy's combo
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After lowercase: wendy's combo
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After special char removal: wendy s combo
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['wendy', 's', 'combo']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['wendy', 'combo']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: McDonald's meal
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After lowercase: mcdonald's meal
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After special char removal: mcdonald s meal
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['mcdonald', 's', 'meal']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['mcdonald', 'meal']
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Disney+ subscription
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After lowercase: disney+ subscription
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After special char removal: disney  subscription
+2025-03-17 01:31:06,813 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['disney', 'subscription']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['disney', 'subscription']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: HBO Max
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After lowercase: hbo max
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After special char removal: hbo max
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['hbo', 'max']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['hbo', 'max']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Paramount+
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After lowercase: paramount+
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After special char removal: paramount 
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['paramount']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['paramount']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Metro card recharge
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After lowercase: metro card recharge
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After special char removal: metro card recharge
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['metro', 'card', 'recharge']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['metro', 'card', 'recharge']
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Bus pass
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After lowercase: bus pass
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After special char removal: bus pass
+2025-03-17 01:31:06,814 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['bus', 'pass']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['bus', 'pas']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Subway fare
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After lowercase: subway fare
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After special char removal: subway fare
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['subway', 'fare']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['subway', 'fare']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Sushi dinner
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After lowercase: sushi dinner
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After special char removal: sushi dinner
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['sushi', 'dinner']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['sushi', 'dinner']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Japanese restaurant
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After lowercase: japanese restaurant
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After special char removal: japanese restaurant
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['japanese', 'restaurant']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['japanese', 'restaurant']
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Hibachi grill
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After lowercase: hibachi grill
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After special char removal: hibachi grill
+2025-03-17 01:31:06,815 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['hibachi', 'grill']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['hibachi', 'grill']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Phone bill
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After lowercase: phone bill
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After special char removal: phone bill
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['phone', 'bill']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['phone', 'bill']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Mobile service
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After lowercase: mobile service
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After special char removal: mobile service
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['mobile', 'service']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['mobile', 'service']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Internet and phone bundle
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After lowercase: internet and phone bundle
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After special char removal: internet and phone bundle
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['internet', 'and', 'phone', 'bundle']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['internet', 'phone', 'bundle']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Eye checkup
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After lowercase: eye checkup
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After special char removal: eye checkup
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['eye', 'checkup']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['eye', 'checkup']
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Dental cleaning
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After lowercase: dental cleaning
+2025-03-17 01:31:06,816 - ExpenseCategorizerLogger - DEBUG - After special char removal: dental cleaning
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['dental', 'cleaning']
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['dental', 'cleaning']
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Medical consultation 
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After lowercase: medical consultation 
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After special char removal: medical consultation 
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['medical', 'consultation']
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['medical', 'consultation']
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: metro fare
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After lowercase: metro fare
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After special char removal: metro fare
+2025-03-17 01:31:06,817 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['metro', 'fare']
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['metro', 'fare']
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: vitamin c
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After lowercase: vitamin c
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After special char removal: vitamin c
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['vitamin', 'c']
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['vitamin']
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: metro ticket
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After lowercase: metro ticket
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After special char removal: metro ticket
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['metro', 'ticket']
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['metro', 'ticket']
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: starbucks
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After lowercase: starbucks
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After special char removal: starbucks
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['starbucks']
+2025-03-17 01:31:06,818 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['starbucks']
+2025-03-17 01:31:14,898 - ExpenseCategorizerLogger - DEBUG - Processing description: Starbucks coffee and breakfast sandwich
+2025-03-17 01:31:14,899 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Starbucks coffee and breakfast sandwich
+2025-03-17 01:31:14,899 - ExpenseCategorizerLogger - DEBUG - After lowercase: starbucks coffee and breakfast sandwich
+2025-03-17 01:31:14,899 - ExpenseCategorizerLogger - DEBUG - After special char removal: starbucks coffee and breakfast sandwich
+2025-03-17 01:31:14,899 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['starbucks', 'coffee', 'and', 'breakfast', 'sandwich']
+2025-03-17 01:31:14,899 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['starbucks', 'coffee', 'breakfast', 'sandwich']
+2025-03-17 01:31:14,899 - ExpenseCategorizerLogger - DEBUG - Processed description: starbucks coffee breakfast sandwich
+2025-03-17 01:31:14,902 - ExpenseCategorizerLogger - DEBUG - Raw prediction: Food, Confidence: 0.9279537026795414
+2025-03-17 01:31:14,903 - ExpenseCategorizerLogger - DEBUG - {"timestamp": "2025-03-17T01:31:14.903783", "description": "Starbucks coffee and breakfast sandwich", "predicted_category": "Food", "confidence": 0.9279537026795414, "actual_category": null}
+2025-03-17 01:31:14,903 - ExpenseCategorizerLogger - INFO - Predicted category: Food with confidence: 0.93
+2025-03-17 01:31:14,903 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Starbucks coffee and breakfast sandwich
+2025-03-17 01:31:14,903 - ExpenseCategorizerLogger - DEBUG - After lowercase: starbucks coffee and breakfast sandwich
+2025-03-17 01:31:14,903 - ExpenseCategorizerLogger - DEBUG - After special char removal: starbucks coffee and breakfast sandwich
+2025-03-17 01:31:14,903 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['starbucks', 'coffee', 'and', 'breakfast', 'sandwich']
+2025-03-17 01:31:14,903 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['starbucks', 'coffee', 'breakfast', 'sandwich']
+2025-03-17 01:31:14,907 - ExpenseCategorizerLogger - DEBUG - Processing description: Monthly unlimited metro pass
+2025-03-17 01:31:14,907 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Monthly unlimited metro pass
+2025-03-17 01:31:14,907 - ExpenseCategorizerLogger - DEBUG - After lowercase: monthly unlimited metro pass
+2025-03-17 01:31:14,907 - ExpenseCategorizerLogger - DEBUG - After special char removal: monthly unlimited metro pass
+2025-03-17 01:31:14,907 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['monthly', 'unlimited', 'metro', 'pass']
+2025-03-17 01:31:14,908 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['monthly', 'unlimited', 'metro', 'pas']
+2025-03-17 01:31:14,908 - ExpenseCategorizerLogger - DEBUG - Processed description: monthly unlimited metro pas
+2025-03-17 01:31:14,910 - ExpenseCategorizerLogger - DEBUG - Raw prediction: Transport, Confidence: 0.5182095090584272
+2025-03-17 01:31:14,910 - ExpenseCategorizerLogger - DEBUG - {"timestamp": "2025-03-17T01:31:14.910731", "description": "Monthly unlimited metro pass", "predicted_category": "Transport", "confidence": 0.5182095090584272, "actual_category": null}
+2025-03-17 01:31:14,910 - ExpenseCategorizerLogger - INFO - Predicted category: Transport with confidence: 0.52
+2025-03-17 01:31:14,911 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Monthly unlimited metro pass
+2025-03-17 01:31:14,911 - ExpenseCategorizerLogger - DEBUG - After lowercase: monthly unlimited metro pass
+2025-03-17 01:31:14,911 - ExpenseCategorizerLogger - DEBUG - After special char removal: monthly unlimited metro pass
+2025-03-17 01:31:14,911 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['monthly', 'unlimited', 'metro', 'pass']
+2025-03-17 01:31:14,911 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['monthly', 'unlimited', 'metro', 'pas']
+2025-03-17 01:31:14,915 - ExpenseCategorizerLogger - DEBUG - Processing description: Electric and water utility payment
+2025-03-17 01:31:14,915 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Electric and water utility payment
+2025-03-17 01:31:14,915 - ExpenseCategorizerLogger - DEBUG - After lowercase: electric and water utility payment
+2025-03-17 01:31:14,915 - ExpenseCategorizerLogger - DEBUG - After special char removal: electric and water utility payment
+2025-03-17 01:31:14,915 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['electric', 'and', 'water', 'utility', 'payment']
+2025-03-17 01:31:14,915 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['electric', 'water', 'utility', 'payment']
+2025-03-17 01:31:14,915 - ExpenseCategorizerLogger - DEBUG - Processed description: electric water utility payment
+2025-03-17 01:31:14,918 - ExpenseCategorizerLogger - DEBUG - Raw prediction: Utilities, Confidence: 0.6616570555865003
+2025-03-17 01:31:14,918 - ExpenseCategorizerLogger - DEBUG - {"timestamp": "2025-03-17T01:31:14.918733", "description": "Electric and water utility payment", "predicted_category": "Utilities", "confidence": 0.6616570555865003, "actual_category": null}
+2025-03-17 01:31:14,918 - ExpenseCategorizerLogger - INFO - Predicted category: Utilities with confidence: 0.66
+2025-03-17 01:31:14,919 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Electric and water utility payment
+2025-03-17 01:31:14,919 - ExpenseCategorizerLogger - DEBUG - After lowercase: electric and water utility payment
+2025-03-17 01:31:14,919 - ExpenseCategorizerLogger - DEBUG - After special char removal: electric and water utility payment
+2025-03-17 01:31:14,919 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['electric', 'and', 'water', 'utility', 'payment']
+2025-03-17 01:31:14,919 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['electric', 'water', 'utility', 'payment']
+2025-03-17 01:31:14,930 - ExpenseCategorizerLogger - DEBUG - Processing description: Movie tickets at AMC theater
+2025-03-17 01:31:14,930 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Movie tickets at AMC theater
+2025-03-17 01:31:14,930 - ExpenseCategorizerLogger - DEBUG - After lowercase: movie tickets at amc theater
+2025-03-17 01:31:14,930 - ExpenseCategorizerLogger - DEBUG - After special char removal: movie tickets at amc theater
+2025-03-17 01:31:14,930 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['movie', 'tickets', 'at', 'amc', 'theater']
+2025-03-17 01:31:14,931 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['movie', 'ticket', 'amc', 'theater']
+2025-03-17 01:31:14,931 - ExpenseCategorizerLogger - DEBUG - Processed description: movie ticket amc theater
+2025-03-17 01:31:14,937 - ExpenseCategorizerLogger - DEBUG - Raw prediction: Entertainment, Confidence: 0.7626162663260074
+2025-03-17 01:31:14,937 - ExpenseCategorizerLogger - DEBUG - {"timestamp": "2025-03-17T01:31:14.937727", "description": "Movie tickets at AMC theater", "predicted_category": "Entertainment", "confidence": 0.7626162663260074, "actual_category": null}
+2025-03-17 01:31:14,937 - ExpenseCategorizerLogger - INFO - Predicted category: Entertainment with confidence: 0.76
+2025-03-17 01:31:14,938 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: Movie tickets at AMC theater
+2025-03-17 01:31:14,938 - ExpenseCategorizerLogger - DEBUG - After lowercase: movie tickets at amc theater
+2025-03-17 01:31:14,938 - ExpenseCategorizerLogger - DEBUG - After special char removal: movie tickets at amc theater
+2025-03-17 01:31:14,938 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['movie', 'tickets', 'at', 'amc', 'theater']
+2025-03-17 01:31:14,939 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['movie', 'ticket', 'amc', 'theater']
+2025-03-17 01:31:14,946 - ExpenseCategorizerLogger - DEBUG - Processing description: New winter jacket from Nike store
+2025-03-17 01:31:14,946 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: New winter jacket from Nike store
+2025-03-17 01:31:14,947 - ExpenseCategorizerLogger - DEBUG - After lowercase: new winter jacket from nike store
+2025-03-17 01:31:14,947 - ExpenseCategorizerLogger - DEBUG - After special char removal: new winter jacket from nike store
+2025-03-17 01:31:14,947 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['new', 'winter', 'jacket', 'from', 'nike', 'store']
+2025-03-17 01:31:14,947 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['new', 'winter', 'jacket', 'nike', 'store']
+2025-03-17 01:31:14,948 - ExpenseCategorizerLogger - DEBUG - Processed description: new winter jacket nike store
+2025-03-17 01:31:14,953 - ExpenseCategorizerLogger - DEBUG - Raw prediction: Shopping, Confidence: 0.82974213247913
+2025-03-17 01:31:14,953 - ExpenseCategorizerLogger - DEBUG - {"timestamp": "2025-03-17T01:31:14.953727", "description": "New winter jacket from Nike store", "predicted_category": "Shopping", "confidence": 0.82974213247913, "actual_category": null}
+2025-03-17 01:31:14,953 - ExpenseCategorizerLogger - INFO - Predicted category: Shopping with confidence: 0.83
+2025-03-17 01:31:14,954 - ExpenseCategorizerLogger - DEBUG - Starting preprocessing for text: New winter jacket from Nike store
+2025-03-17 01:31:14,954 - ExpenseCategorizerLogger - DEBUG - After lowercase: new winter jacket from nike store
+2025-03-17 01:31:14,954 - ExpenseCategorizerLogger - DEBUG - After special char removal: new winter jacket from nike store
+2025-03-17 01:31:14,955 - ExpenseCategorizerLogger - DEBUG - After tokenization: ['new', 'winter', 'jacket', 'from', 'nike', 'store']
+2025-03-17 01:31:14,955 - ExpenseCategorizerLogger - DEBUG - After stopword removal and lemmatization: ['new', 'winter', 'jacket', 'nike', 'store']
+2025-03-17 01:31:14,963 - ExpenseCategorizerLogger - INFO - Metrics saved to logs/metrics.json
+2025-03-17 01:31:14,963 - ExpenseCategorizerLogger - INFO - Performance Report: {
+  "total_predictions": 5,
+  "average_confidence": 0.7400357332259213,
+  "category_performance": {
+    "Food": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Transport": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Utilities": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Entertainment": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Shopping": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Health": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Other": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    }
+  },
+  "error_rate": 0.0
+}

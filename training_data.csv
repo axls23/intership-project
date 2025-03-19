@@ -129,4 +129,159 @@ date,category,amount,description
 2024-03-12,Health,55.00,Yoga studio classes
 2024-03-12,Health,35.00,Health app subscription
 2024-03-12,Health,28.99,Protein supplements
-2024-03-12,Health,15.50,Pharmacy first aid items 
+2024-03-12,Health,15.50,Pharmacy first aid items
+
+# Food Variations - International and Specialty
+2024-03-13,Food,32.99,Indian curry house dinner meal
+2024-03-13,Food,28.50,Mediterranean cafe lunch special
+2024-03-13,Food,75.99,Whole Foods organic produce shopping
+2024-03-13,Food,12.99,Peet's Coffee morning breakfast combo
+2024-03-13,Food,55.00,Japanese ramen restaurant dinner
+2024-03-13,Food,22.50,Sweetgreen salad bowl lunch
+2024-03-13,Food,89.99,Fresh Market premium groceries
+2024-03-13,Food,18.99,Panera bread sandwich combo
+2024-03-13,Food,65.00,Local farmers market produce
+2024-03-13,Food,42.99,Mexican restaurant family dinner
+
+# Transport - Additional Services
+2024-03-13,Transport,32.50,Airport express shuttle service
+2024-03-13,Transport,18.75,Shared ride pool commute
+2024-03-13,Transport,175.00,Car transmission service
+2024-03-13,Transport,55.00,Monthly bus pass subscription
+2024-03-13,Transport,28.50,Corporate shuttle service
+2024-03-13,Transport,165.00,Tire replacement service
+2024-03-13,Transport,22.50,Electric scooter rental
+2024-03-13,Transport,89.99,Monthly parking permit
+2024-03-13,Transport,35.00,Airport parking fee
+2024-03-13,Transport,145.00,Car inspection service
+
+# Utilities - Modern Services
+2024-03-13,Utilities,95.99,Smart home security system
+2024-03-13,Utilities,78.50,High speed fiber internet
+2024-03-13,Utilities,125.00,Solar panel lease payment
+2024-03-13,Utilities,45.99,Smart thermostat service
+2024-03-13,Utilities,88.00,Home automation subscription
+2024-03-13,Utilities,115.00,Combined utilities package
+2024-03-13,Utilities,65.99,Premium cable package
+2024-03-13,Utilities,35.00,Smart meter monitoring
+2024-03-13,Utilities,92.50,Energy efficiency service
+2024-03-13,Utilities,55.99,VoIP phone service
+
+# Entertainment - Digital and Live
+2024-03-13,Entertainment,45.99,Virtual concert ticket
+2024-03-13,Entertainment,65.00,Broadway show streaming
+2024-03-13,Entertainment,32.99,Gaming console subscription
+2024-03-13,Entertainment,18.99,Online movie rental
+2024-03-13,Entertainment,55.00,Live comedy show ticket
+2024-03-13,Entertainment,22.99,Mobile game premium pass
+2024-03-13,Entertainment,75.00,Music festival ticket
+2024-03-13,Entertainment,15.99,Audiobook subscription
+2024-03-13,Entertainment,42.00,Sports event streaming
+2024-03-13,Entertainment,28.99,Digital magazine bundle
+
+# Shopping - Tech and Fashion
+2024-03-13,Shopping,299.99,Smart watch device
+2024-03-13,Shopping,145.00,Designer handbag sale
+2024-03-13,Shopping,89.99,Fitness tracker device
+2024-03-13,Shopping,225.00,Premium headphones
+2024-03-13,Shopping,78.50,Athleisure wear set
+2024-03-13,Shopping,159.99,Smart home speaker
+2024-03-13,Shopping,95.00,Professional attire
+2024-03-13,Shopping,199.99,Tablet accessories
+2024-03-13,Shopping,68.50,Sustainable fashion items
+2024-03-13,Shopping,129.99,Smart lighting system
+
+# Health - Wellness and Care
+2024-03-13,Health,85.00,Nutritionist consultation
+2024-03-13,Health,120.00,Chiropractic adjustment
+2024-03-13,Health,65.00,Mental health therapy
+2024-03-13,Health,95.00,Massage therapy session
+2024-03-13,Health,45.99,Wellness app subscription
+2024-03-13,Health,175.00,Specialist consultation
+2024-03-13,Health,35.00,Health coaching session
+2024-03-13,Health,89.99,Fitness equipment
+2024-03-13,Health,55.00,Meditation class
+2024-03-13,Health,128.00,Physical therapy session
+
+# Food Variations (adding international cuisines, dietary options, meal prep)
+2024-03-13,Food,22.50,Indian curry takeout dinner
+2024-03-13,Food,18.99,Mediterranean falafel wrap lunch
+2024-03-13,Food,65.00,Blue Apron meal kit delivery
+2024-03-13,Food,12.99,Vegan smoothie bowl breakfast
+2024-03-13,Food,89.99,HelloFresh weekly meal subscription
+2024-03-13,Food,35.00,Mexican taqueria dinner combo
+2024-03-13,Food,28.50,Greek restaurant moussaka dinner
+2024-03-13,Food,15.99,Gluten free bakery pastries
+2024-03-13,Food,55.00,Farm to table organic dinner
+2024-03-13,Food,42.99,Vietnamese pho and spring rolls
+
+# Transport Variations (adding new transport modes, maintenance)
+2024-03-13,Transport,299.99,Annual bike maintenance service
+2024-03-13,Transport,15.00,Electric scooter rental
+2024-03-13,Transport,89.99,Monthly parking garage pass
+2024-03-13,Transport,35.00,Airport express train ticket
+2024-03-13,Transport,129.99,Car tire rotation service
+2024-03-13,Transport,65.00,Hybrid car charging station
+2024-03-13,Transport,18.50,Water taxi harbor crossing
+2024-03-13,Transport,299.99,Car battery replacement service
+2024-03-13,Transport,25.00,Shared ride pool service
+2024-03-13,Transport,55.00,Premium airport car service
+
+# Utilities Variations (adding smart home, renewable energy)
+2024-03-13,Utilities,129.99,Smart home security subscription
+2024-03-13,Utilities,89.99,Solar panel monthly lease
+2024-03-13,Utilities,45.00,Smart thermostat service
+2024-03-13,Utilities,35.00,Home automation subscription
+2024-03-13,Utilities,79.99,VPN service annual payment
+2024-03-13,Utilities,149.99,Home battery backup service
+2024-03-13,Utilities,29.99,Cloud storage monthly fee
+2024-03-13,Utilities,19.99,Smart meter monitoring service
+2024-03-13,Utilities,99.99,Fiber optic internet upgrade
+2024-03-13,Utilities,65.00,Home security monitoring
+
+# Entertainment Variations (adding virtual events, gaming)
+2024-03-13,Entertainment,29.99,Virtual concert livestream
+2024-03-13,Entertainment,49.99,Online cooking class session
+2024-03-13,Entertainment,15.99,Mobile game premium pass
+2024-03-13,Entertainment,89.99,Virtual reality game bundle
+2024-03-13,Entertainment,35.00,Drive in movie experience
+2024-03-13,Entertainment,25.00,Online fitness class pass
+2024-03-13,Entertainment,65.00,Gaming console subscription
+2024-03-13,Entertainment,19.99,Audiobook monthly credit
+2024-03-13,Entertainment,45.00,Live streaming platform sub
+2024-03-13,Entertainment,29.99,Digital magazine bundle
+
+# Shopping Variations (adding tech, specialty items)
+2024-03-13,Shopping,299.99,Smart watch fitness tracker
+2024-03-13,Shopping,189.99,Ergonomic office chair
+2024-03-13,Shopping,79.99,Sustainable fashion items
+2024-03-13,Shopping,159.99,Home workout equipment
+2024-03-13,Shopping,49.99,Eco friendly water bottle
+2024-03-13,Shopping,299.99,Tablet device purchase
+2024-03-13,Shopping,129.99,Noise canceling earphones
+2024-03-13,Shopping,89.99,Smart home lighting system
+2024-03-13,Shopping,199.99,Camera lens accessories
+2024-03-13,Shopping,149.99,Gaming keyboard mechanical
+
+# Health Variations (adding alternative medicine, mental health)
+2024-03-13,Health,85.00,Acupuncture session therapy
+2024-03-13,Health,120.00,Nutritionist consultation
+2024-03-13,Health,75.00,Mental health counseling
+2024-03-13,Health,65.00,Chiropractor adjustment
+2024-03-13,Health,45.00,Meditation app yearly sub
+2024-03-13,Health,95.00,Physical therapy session
+2024-03-13,Health,55.00,Holistic healing consultation
+2024-03-13,Health,35.00,Online therapy session
+2024-03-13,Health,89.99,Health tracking device
+2024-03-13,Health,65.00,Massage therapy session
+
+# ... Continue with more months (2024-03-14 through 2024-12-31)
+# using similar patterns but varying:
+# - Vendors
+# - Amounts
+# - Specific items/services
+# - Seasonal variations
+# - Special occasions
+# - Different locations
+# - Service types
+# - Payment methods 

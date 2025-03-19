@@ -1,0 +1,92 @@
+{
+  "predictions": [
+    {
+      "timestamp": "2025-03-17T01:31:50.071164",
+      "description": "Starbucks coffee and breakfast sandwich",
+      "predicted_category": "Food",
+      "confidence": 0.9183980185201097,
+      "actual_category": null
+    },
+    {
+      "timestamp": "2025-03-17T01:31:50.079833",
+      "description": "Monthly unlimited metro pass",
+      "predicted_category": "Transport",
+      "confidence": 0.5154858904321036,
+      "actual_category": null
+    },
+    {
+      "timestamp": "2025-03-17T01:31:50.086832",
+      "description": "Electric and water utility payment",
+      "predicted_category": "Utilities",
+      "confidence": 0.6474062475704074,
+      "actual_category": null
+    },
+    {
+      "timestamp": "2025-03-17T01:31:50.095844",
+      "description": "Movie tickets at AMC theater",
+      "predicted_category": "Entertainment",
+      "confidence": 0.8024020371400012,
+      "actual_category": null
+    },
+    {
+      "timestamp": "2025-03-17T01:31:50.103251",
+      "description": "New winter jacket from Nike store",
+      "predicted_category": "Shopping",
+      "confidence": 0.762187878898004,
+      "actual_category": null
+    }
+  ],
+  "confidences": [
+    0.9183980185201097,
+    0.5154858904321036,
+    0.6474062475704074,
+    0.8024020371400012,
+    0.762187878898004
+  ],
+  "categories": {
+    "Food": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Transport": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Utilities": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Entertainment": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Shopping": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Health": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    },
+    "Other": {
+      "total": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "avg_confidence": 0.0
+    }
+  },
+  "errors": [],
+  "training_history": []
+}
